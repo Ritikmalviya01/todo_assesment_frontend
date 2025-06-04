@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from "../assets/Logo.png";
+import logo from "../assets/logo.png";
 import { TiSocialFacebook } from "react-icons/ti";
 import { SlSocialInstagram, SlSocialLinkedin, SlSocialYoutube } from "react-icons/sl";
 
