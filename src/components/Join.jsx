@@ -3,7 +3,7 @@ import phone from "../assets/phone.jpg";
 
 function Join() {
   return (
-    <section className="w-full max-w-[1155px] h-auto mx-auto px-4">
+    <section id='more' className="w-full max-w-[1155px] h-auto mx-auto px-4">
       <div className="flex flex-col lg:flex-row justify-center items-center h-full gap-[16px]">
         <div className="w-full lg:w-[585px]">
           <img

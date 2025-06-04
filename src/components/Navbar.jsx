@@ -15,9 +15,9 @@ const Navbar = () => {
       </div>
 <div className="flex items-center gap-[16px] mr-[120px] ml-12 ">
       <ul className=" hidden md:flex md: gap-4 md:gap-8 text-gray-700 font-medium mr-4 sm:mr-[120px]">
-        <li><a href="#about" >About</a></li>
+        <li><a href="/" >About</a></li>
         <li><a href="#features" >Features</a></li>
-        <li><a href="#more" >More Options</a></li>
+        <li><a href="#testimonial" >More Options</a></li>
         <li><a href="#contact" >Contact</a></li>
       </ul>
         
@@ -45,9 +45,9 @@ const Navbar = () => {
        {isOpen && (
         <div className="absolute top-[100px] left-0 w-full bg-white shadow-md md:hidden z-20">
           <ul className="flex flex-col gap-4 p-4 text-gray-700 font-medium">
-            <li><a href="#about" className="" onClick={() => setIsOpen(false)}>About Us</a></li>
+            <li><a href="/" className="" onClick={() => setIsOpen(false)}>About </a></li>
             <li><a href="#features" className="" onClick={() => setIsOpen(false)}>Features</a></li>
-            <li><a href="#how" className="" onClick={() => setIsOpen(false)}>More Option</a></li>
+            <li><a href="#testimonials" className="" onClick={() => setIsOpen(false)}>More Option</a></li>
             <li><a href="#contact" className="" onClick={() => setIsOpen(false)}>Contact</a></li>
           </ul>
         </div>

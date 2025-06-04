@@ -8,7 +8,7 @@ function Footer() {
   
 
   return (
-    <footer className="w-full mt-20 px-4 sm:px-6 lg:px-[52px] pt-[60px] pb-[65px]  bg-white">
+    <section id='contact' className="w-full mt-20 px-4 sm:px-6 lg:px-[52px] pt-[60px] pb-[65px]  bg-white">
       <div className="max-w-[1170px] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-[40px] mb-8">
           <div className="lg:col-span-2">
@@ -106,7 +106,7 @@ function Footer() {
           </div>
         </div>
       </div>
-    </footer>
+    </section>
   );
 }
 

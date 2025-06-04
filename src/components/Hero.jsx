@@ -116,7 +116,7 @@ const HeroSection = () => {
       </div>
     </section>
  
-<Features />
+<Features  />
 < Testimonial />
 <Join />
 <FormDataTable submissions={submissions || []} />

@@ -39,7 +39,7 @@ function Testimonial() {
   const currentData = testimonials[currentTestimonial];
 
   return (
-    <section className="bg-[#ffffff] py-20 px-4 md:px-20">
+    <section id='testimonial' className="bg-[#ffffff] py-20 px-4 md:px-20">
       <div className='max-w-[1140px] bg-[#ffffff] mx-auto py-1 md:py-2'>
  <div className='md:pb-0 pb-60 '>
     <h1 className='font-extrabold text-[32px] md:text-[48px]  leading-[57.6px] text-[#0E1F51]' >Customer Testimonials</h1>
